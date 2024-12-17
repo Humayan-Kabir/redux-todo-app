@@ -1,0 +1,18 @@
+{
+    "name": "todo-server",
+    "description": "Todo application server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "json-server --watch db_todos.json --no-cors true --port 9000"
+    },
+    "dependencies": {
+        "json-server": "^0.17.0"
+    },
+    "keywords": [],
+    "author": "M. Humayan Kabir",
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}

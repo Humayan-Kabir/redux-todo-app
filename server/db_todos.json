@@ -1,0 +1,52 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "Learn Vanilla JavaScript",
+      "color": "green",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "text": "Learn Modern ES6+ JavaScript",
+      "color": "red",
+      "isCompleted": true
+    },
+    {
+      "id": 3,
+      "text": "Learn React JS",
+      "color": "yellow",
+      "isCompleted": true
+    },
+    {
+      "text": "Learn Redux Basics",
+      "color": "red",
+      "id": 4,
+      "isCompleted": false
+    },
+    {
+      "text": "Learn Redux fundamentals",
+      "color": "red",
+      "id": 5,
+      "isCompleted": false
+    },
+    {
+      "text": "Learn Redux Toolkit",
+      "color": "green",
+      "id": 7,
+      "isCompleted": false
+    },
+    {
+      "text": "Learn Redux SAGA",
+      "color": "red",
+      "id": 9,
+      "isCompleted": false
+    },
+    {
+      "text": "Learn AWS Lamda",
+      "color": "yellow",
+      "id": 10,
+      "isCompleted": false
+    }
+  ]
+}
