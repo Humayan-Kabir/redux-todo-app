@@ -16,7 +16,7 @@ export default function Footer() {
     const dispatch = useDispatch();
     const todos = useSelector(state => state.todos);
     const filters = useSelector(state => state.filters);
-    const todosRemaining = todos.filter((todo) => !todo.completed).length;
+    const todosRemaining = todos.filter((todo) => !todo.isCompleted).length;
     const { status, colors } = filters;
     
     const handleStatusChanged = (status) => {
